@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Componente from "./components/Componente";
 
 function App() {
   return (
@@ -9,15 +10,18 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          <a
+              className="App-link"
+              href="https://reactjs.org"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+              Learn React
+          </a>
       </header>
+        <section>
+            <Componente mdg={"hola soy un componente funcional expreasado desde una props"}/>
+        </section>
     </div>
   );
 }
