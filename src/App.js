@@ -1,6 +1,6 @@
 import './App.css';
 import React from "react";
-import RelojHooks from "./components/Hooks/RelojHooks";
+import AjaxHooks from "./components/Hooks/AjaxHooks";
 
 function App() {
     return (
@@ -8,7 +8,7 @@ function App() {
             <header className="App-header">
                 <section>
                     {/*<EjemplosClases/>*/}
-                    <RelojHooks/>
+                    <AjaxHooks/>
                 </section>
             </header>
         </div>

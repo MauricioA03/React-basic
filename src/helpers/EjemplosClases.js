@@ -11,6 +11,7 @@ import CicloVida from "../components/CicloVida";
 import AjaxApis from "../components/AjaxApis";
 import ContadorHooks from "../components/Hooks/ContadorHooks";
 import ScrollHooks from "../components/Hooks/ScrollHooks";
+import RelojHooks from "../components/Hooks/RelojHooks";
 
 function EjemplosClases() {
     return (
@@ -67,6 +68,8 @@ function EjemplosClases() {
             <AjaxApis/>
             <hr/>
             <ScrollHooks/>
+            <hr/>
+            <RelojHooks/>
         </>
     );
 }
