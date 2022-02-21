@@ -1,5 +1,5 @@
 import './App.css';
-import CicloVida from "./components/CicloVida";
+import AjaxApis from "./components/AjaxApis";
 
 function App() {
     return (
@@ -7,7 +7,7 @@ function App() {
             <header className="App-header">
                 <section>
                     {/*<EjemplosClases/>*/}
-                    <CicloVida/>
+                    <AjaxApis/>
                 </section>
             </header>
         </div>

@@ -7,6 +7,7 @@ import RenderizadoElementos from "../components/RenderizadoElementos";
 import {EventosES6, EventosES7, MasSobreEventos} from "../components/EventosES6";
 import DadComponent from "../components/ComunicacionComponentes";
 import logo from "../logo.svg";
+import CicloVida from "../components/CicloVida";
 
 function EjemplosClases() {
     return (
@@ -54,6 +55,8 @@ function EjemplosClases() {
             <MasSobreEventos/>
             <hr/>
             <DadComponent/>
+            <hr/>
+            <CicloVida/>
             <hr/>
         </>
     );
