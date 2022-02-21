@@ -10,6 +10,7 @@ import logo from "../logo.svg";
 import CicloVida from "../components/CicloVida";
 import AjaxApis from "../components/AjaxApis";
 import ContadorHooks from "../components/Hooks/ContadorHooks";
+import ScrollHooks from "../components/Hooks/ScrollHooks";
 
 function EjemplosClases() {
     return (
@@ -52,7 +53,6 @@ function EjemplosClases() {
             <hr/>
             <EventosES6/>
             <hr/>
-
             <hr/>
             <MasSobreEventos/>
             <hr/>
@@ -63,6 +63,10 @@ function EjemplosClases() {
             <AjaxApis/>
             <hr/>
             <ContadorHooks title={"seguidores"}/>
+            <hr/>
+            <AjaxApis/>
+            <hr/>
+            <ScrollHooks/>
         </>
     );
 }
