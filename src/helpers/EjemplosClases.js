@@ -9,6 +9,7 @@ import DadComponent from "../components/ComunicacionComponentes";
 import logo from "../logo.svg";
 import CicloVida from "../components/CicloVida";
 import AjaxApis from "../components/AjaxApis";
+import ContadorHooks from "../components/Hooks/ContadorHooks";
 
 function EjemplosClases() {
     return (
@@ -60,6 +61,8 @@ function EjemplosClases() {
             <CicloVida/>
             <hr/>
             <AjaxApis/>
+            <hr/>
+            <ContadorHooks title={"seguidores"}/>
         </>
     );
 }
