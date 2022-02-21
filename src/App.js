@@ -1,5 +1,6 @@
 import './App.css';
-import AjaxApis from "./components/AjaxApis";
+import React from "react";
+import ContadorHooks from "./components/Hooks/ContadorHooks";
 
 function App() {
     return (
@@ -7,7 +8,7 @@ function App() {
             <header className="App-header">
                 <section>
                     {/*<EjemplosClases/>*/}
-                    <AjaxApis/>
+                    <ContadorHooks title={"seguidores"}/>
                 </section>
             </header>
         </div>

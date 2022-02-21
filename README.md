@@ -1,1 +1,5 @@
-aprender que es bind - Binding aprender acerca de peticiones de AJax en cursos de JavaScript 
+- Aprender que es bind - Binding
+- Aprender acerca de peticiones de AJax en cursos de JavaScript
+- Aprender This and "call and this" de java Script
+- Clase 15 HOOKS (TEORIA)
+- 

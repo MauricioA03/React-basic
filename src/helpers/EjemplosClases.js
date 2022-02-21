@@ -4,10 +4,11 @@ import Propiedades from "../components/Propiedades";
 import Estado from "../components/Estado";
 import RenderizadoCondicional from "../components/RenderizadoCondicional";
 import RenderizadoElementos from "../components/RenderizadoElementos";
-import {EventosES6, EventosES7, MasSobreEventos} from "../components/EventosES6";
+import {EventosES6, MasSobreEventos} from "../components/EventosES6";
 import DadComponent from "../components/ComunicacionComponentes";
 import logo from "../logo.svg";
 import CicloVida from "../components/CicloVida";
+import AjaxApis from "../components/AjaxApis";
 
 function EjemplosClases() {
     return (
@@ -50,7 +51,7 @@ function EjemplosClases() {
             <hr/>
             <EventosES6/>
             <hr/>
-            <EventosES7/>
+
             <hr/>
             <MasSobreEventos/>
             <hr/>
@@ -58,6 +59,7 @@ function EjemplosClases() {
             <hr/>
             <CicloVida/>
             <hr/>
+            <AjaxApis/>
         </>
     );
 }
