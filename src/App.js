@@ -1,6 +1,6 @@
 import './App.css';
 import React from "react";
-import Referencias from "./components/Hooks/Referencias";
+import Formularios from "./components/Hooks/Formularios";
 
 function App() {
     return (
@@ -8,7 +8,7 @@ function App() {
             <header className="App-header">
                 <section>
                     {/*<EjemplosClases/>*/}
-                    <Referencias/>
+                    <Formularios/>
                 </section>
             </header>
         </div>

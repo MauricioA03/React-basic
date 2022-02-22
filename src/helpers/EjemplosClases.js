@@ -14,6 +14,7 @@ import ScrollHooks from "../components/Hooks/ScrollHooks";
 import RelojHooks from "../components/Hooks/RelojHooks";
 import AjaxHooks from "../components/Hooks/AjaxHooks";
 import HooksPersonalizados from "../components/HooksPersonalizados";
+import Referencias from "../components/Hooks/Referencias";
 
 function EjemplosClases() {
     return (
@@ -76,6 +77,8 @@ function EjemplosClases() {
             <AjaxHooks/>
             <hr/>
             <HooksPersonalizados/>
+            <hr/>
+            <Referencias/>
         </>
     );
 }
