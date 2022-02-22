@@ -12,6 +12,7 @@ import AjaxApis from "../components/AjaxApis";
 import ContadorHooks from "../components/Hooks/ContadorHooks";
 import ScrollHooks from "../components/Hooks/ScrollHooks";
 import RelojHooks from "../components/Hooks/RelojHooks";
+import AjaxHooks from "../components/Hooks/AjaxHooks";
 
 function EjemplosClases() {
     return (
@@ -70,6 +71,8 @@ function EjemplosClases() {
             <ScrollHooks/>
             <hr/>
             <RelojHooks/>
+            <hr/>
+            <AjaxHooks/>
         </>
     );
 }

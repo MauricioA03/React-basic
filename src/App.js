@@ -1,6 +1,6 @@
 import './App.css';
 import React from "react";
-import AjaxHooks from "./components/Hooks/AjaxHooks";
+import HooksPersonalizados from "./components/HooksPersonalizados";
 
 function App() {
     return (
@@ -8,7 +8,7 @@ function App() {
             <header className="App-header">
                 <section>
                     {/*<EjemplosClases/>*/}
-                    <AjaxHooks/>
+                    <HooksPersonalizados/>
                 </section>
             </header>
         </div>
