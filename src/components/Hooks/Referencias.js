@@ -1,23 +1,34 @@
-import React from "react";
+import React, {useRef} from "react";
 
 export default function Referencias() {
-    const handleToggleMenu = (e) => {
-        const $menu = document.getElementById("menu");
+    // let refMenu = createRef(), esto se usa para class componentes
+    let refMenu = useRef(),
+        refMenuBtn = useRef();
+    //console.log(refMenu, refMenuBtn);
 
-        if (e.target.textContent === "Menu") {
-            e.target.textContent = "Cerrar";
-            $menu.style.display = "block"
+    const handleToggleMenu = (e) => {
+        // const $menu = document.getElementById("menu");
+        // if (e.target.textContent === "Menu") {
+        //     e.target.textContent = "Cerrar";
+        //     $menu.style.display = "block"
+        // } else {
+        //     e.target.textContent = "Menu";
+        //     $menu.style.display = "none"
+        // }
+        if (refMenuBtn.current.textContent === "Menu") {
+            refMenuBtn.current.textContent = "Cerrar";
+            refMenu.current.style.display = "block"
         } else {
-            e.target.textContent = "Menu";
-            $menu.style.display = "none"
+            refMenuBtn.current.textContent = "Menu";
+            refMenu.current.style.display = "none"
         }
     }
 
     return (
         <div>
             <h2>Referencias</h2>
-            <button id={"menu-btn"} onClick={handleToggleMenu}>Menu</button>
-            <nav id={"menu"} style={{display: "none"}}>
+            <button id="menu-btn" ref={refMenuBtn} onClick={handleToggleMenu}>Menu</button>
+            <nav id="menu" ref={refMenu} style={{display: "none"}}>
                 <a href={"#"}>Secccion 1</a><br/>
                 <a href={"#"}>Secccion 2</a><br/>
                 <a href={"#"}>Secccion 3</a><br/>
