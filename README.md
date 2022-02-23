@@ -3,3 +3,4 @@
 - Aprender This and "call and this" de java Script
 - Clase 15 HOOKS (TEORIA)
 - Se instalo SASS - "npm install node-sass"
+- Se instalo Style components - "npm install --save styled-components"

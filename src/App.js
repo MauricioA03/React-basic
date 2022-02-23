@@ -1,6 +1,7 @@
 import './App.css';
 import React from "react";
 import Estilos from "./components/Estilos";
+import ComponentesEstilizados from "./components/ComponentesEstilizados";
 
 function App() {
     return (
@@ -9,6 +10,8 @@ function App() {
                 <section>
                     {/*<EjemplosClases/>*/}
                     <Estilos/>
+                    <hr/>
+                    <ComponentesEstilizados/>
                 </section>
             </header>
         </div>
