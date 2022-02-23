@@ -15,6 +15,7 @@ import RelojHooks from "../components/Hooks/RelojHooks";
 import AjaxHooks from "../components/Hooks/AjaxHooks";
 import HooksPersonalizados from "../components/HooksPersonalizados";
 import Referencias from "../components/Hooks/Referencias";
+import Formularios from "../components/Hooks/Formularios";
 
 function EjemplosClases() {
     return (
@@ -79,6 +80,8 @@ function EjemplosClases() {
             <HooksPersonalizados/>
             <hr/>
             <Referencias/>
+            <hr/>
+            <Formularios/>
         </>
     );
 }

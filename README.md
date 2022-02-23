@@ -2,4 +2,4 @@
 - Aprender acerca de peticiones de AJax en cursos de JavaScript
 - Aprender This and "call and this" de java Script
 - Clase 15 HOOKS (TEORIA)
-- 
+- Se instalo SASS - "npm install node-sass"
